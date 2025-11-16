@@ -40,7 +40,8 @@ git branch <nome>           # Criar branch
 git checkout <nome>         # Mudar de branch
 git merge <nome>            # Mesclar branch
 git branch -d <nome>        # Deletar branch
-git clone <URL> branch nome # Clonar uma branch --single-branch  
+git clone <URL> branch nome # Clonar uma branch --single-branch
+git stash                   # Salvar temporariamente
 ```
 ### Desfazendo Alterações 
 ```bash
