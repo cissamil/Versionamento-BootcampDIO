@@ -26,6 +26,7 @@ git add .                   # Adicionar alterações
 git commit -m "mensagem"    # Commitar alterações
 git push origin main        # Enviar para remoto
 git pull origin main        # Atualizar do remoto
+git remote ad origin <URL>  # Conexão do local com o remoto
 ```
 
 ### Trabalhando com Branches
@@ -35,16 +36,38 @@ git branch <nome>           # Criar branch
 git checkout <nome>         # Mudar de branch
 git merge <nome>            # Mesclar branch
 git branch -d <nome>        # Deletar branch
+git clone <URL> branch nome # Clonar uma branch --single-branch  
+```
+### Desfazendo Alterações 
+```bash
+rm -rf                          # Força a exclusão permanentemente de arquivos/diretórios 
+git restore --staged <arquivo>  # Contrário do git add.
+git commit --ammend -m ""       # Alterar a mensagem do último commit 
+git reset --soft/hard/mixed     # Desfaz o commit e altera
 ```
 
 ---
+### Outros 
+```bash
+git status                  # Estado do seu repositório 
+touch README.md             # Cria o readme
+git log                     # Auditoria dos commits
 
+```
+---
+
+## 📝 Arquivos comentados
+- .gitignore: ignora arquivos desnecessários 
+- .gitkeep: garantir a estrutura de diretórios 
+
+---
 ## 🔗 Links Úteis
 
 - [Documentação Oficial do Git](https://git-scm.com/doc)
 - [GitHub Docs](https://docs.github.com)
 - [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Bootcamp DIO](https://www.dio.me/)
+- [README Editor](https://readme.so/pt)
 
 ---
 
