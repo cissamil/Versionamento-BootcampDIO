@@ -27,11 +27,15 @@ git commit -m "mensagem"    # Commitar alterações
 git push origin main        # Enviar para remoto
 git pull origin main        # Atualizar do remoto
 git remote ad origin <URL>  # Conexão do local com o remoto
+git pull -> git merge + git fetch
+git fetch
+git diff
 ```
 
 ### Trabalhando com Branches
 ```bash
 git branch                  # Listar branches
+git branch -v               # Commit de cada branch
 git branch <nome>           # Criar branch
 git checkout <nome>         # Mudar de branch
 git merge <nome>            # Mesclar branch
@@ -50,7 +54,6 @@ git reset --soft/hard/mixed     # Desfaz o commit e altera
 ### Outros 
 ```bash
 git status                  # Estado do seu repositório 
-touch README.md             # Cria o readme
 git log                     # Auditoria dos commits
 
 ```
