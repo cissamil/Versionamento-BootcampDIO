@@ -13,8 +13,8 @@ Este repositório contém os materiais e anotações do Bootcamp DIO sobre **Ver
 
 ### Configuração Inicial
 ```bash
-git config --global user.name "Seu Nome"
-git config --global user.email "seu@email.com"
+git config --global user.name "Nome"
+git config --global user.email seu@email.com
 ```
 
 ### Comandos Básicos
